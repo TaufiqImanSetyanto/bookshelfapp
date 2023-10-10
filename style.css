@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #425f57;
+  color: white;
+}
+main {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.input-book {
+  padding: 20px;
+  border: 3px solid #749f82;
+  border-radius: 10px;
+}
+.input-book h2,
+.bookshelf h2 {
+  text-align: center;
+  color: #425f57;
+}
+.input-book form .input {
+  margin: 8px 0;
+}
+
+.input-book form button {
+  border: 2px solid #749f82;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  cursor: pointer;
+  color: #425f57;
+}
+.input-book form button:hover {
+  color: white;
+  background-color: #749f82;
+}
+.input-book form .input input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #425f57;
+}
+.input-book form .input label {
+  font-weight: bold;
+  color: #425f57;
+}
+.bookshelf {
+  margin-top: 20px;
+  padding: 20px;
+  border: 3px solid #749f82;
+  border-radius: 10px;
+}
+
+.bookshelf .book-list .book-item {
+  padding: 20px;
+  border: 2px solid #749f82;
+  border-radius: 10px;
+  margin: 10px;
+}
+.bookshelf > .book-list > .book-item h3,
+p {
+  margin: 5px 0;
+}
+
+.bookshelf > .book-list > .book-item > .action > button {
+  border: 0;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bookshelf > .book-list > .book-item > .action > .selesai {
+  border: 2px solid #083aa9;
+  color: #083aa9;
+}
+.bookshelf > .book-list > .book-item > .action > .selesai:hover {
+  color: white;
+  background-color: #083aa9;
+}
+.bookshelf > .book-list > .book-item > .action > .belum-selesai {
+  border: 2px solid #ffb200;
+  color: #ffb200;
+}
+.bookshelf > .book-list > .book-item > .action > .belum-selesai:hover {
+  color: white;
+  background-color: #ffb200;
+}
+.bookshelf > .book-list > .book-item > .action > .hapus {
+  border: 2px solid #cf0a0a;
+  color: #cf0a0a;
+}
+.bookshelf > .book-list > .book-item > .action > .hapus:hover {
+  color: white;
+  background-color: #cf0a0a;
+}

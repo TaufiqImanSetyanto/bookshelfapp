@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelfs App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Bookshelfs App</h1>
+    </header>
+    <main>
+      <section class="input-book">
+        <h2>Masukkan buku baru</h2>
+        <form id="input-new-book">
+          <div class="input">
+            <label for="inputBookTitle">Judul</label>
+            <input id="inputBookTitle" type="text" required />
+          </div>
+          <div class="input">
+            <label for="inputBookAuthor">Penulis</label>
+            <input id="inputBookAuthor" type="text" required />
+          </div>
+          <div class="input">
+            <label for="inputBookYear">Tahun</label>
+            <input id="inputBookYear" type="number" required />
+          </div>
+          <button id="bookSubmit" type="submit"><h3>Masukkan Buku ke rak</h3></button>
+        </form>
+      </section>
+      <section class="bookshelf">
+        <h2>Belum selesai dibaca</h2>
+        <div id="uncompleteBookshelf" class="book-list">
+          <!-- <article class="book-item">
+            <h3>Book Title</h3>
+            <p>Penulis: John Doe</p>
+            <p>Tahun: 2002</p>
+            <div class="action">
+              <button class="selesai">Selesai dibaca</button>
+              <button class="hapus">Hapus buku</button>
+            </div>
+          </article> -->
+        </div>
+      </section>
+      <section class="bookshelf">
+        <h2>Selesai dibaca</h2>
+        <div id="completeBookshelf" class="book-list">
+          <!-- <article class="book-item">
+            <h3>Book Title</h3>
+            <p>Penulis: John Doe</p>
+            <p>Tahun: 2002</p>
+            <div class="action">
+              <button class="belum-selesai">Belum selesai dibaca</button>
+              <button class="hapus">Hapus buku</button>
+            </div>
+          </article> -->
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
